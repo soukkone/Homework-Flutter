@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/src/widgets/framework.dart';
-// import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter/src/widgets/framework.dart';
+// ignore: unused_import
+import 'package:flutter/src/widgets/placeholder.dart';
 
 class MyWidget extends StatelessWidget {
   const MyWidget({super.key});
@@ -9,16 +10,26 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('CustomScrollView - Slivers'),
+        title: const Text('CustomScrollView - Slivers'),
         elevation: 0.0,
       ),
-      body: CustomScrollView(
+      body: const CustomScrollView(
         slivers: <Widget>[
-          const SliverAppBarWidget(),
-          const SliverListWidget(),
-          const SliverGridWidget(),
+          
         ],
       ),
     );
   }
+}
+
+class SliverGridWidget {
+  const SliverGridWidget();
+}
+
+class SliverListWidget {
+  const SliverListWidget();
+}
+
+class SliverAppBarWidget {
+  const SliverAppBarWidget();
 }

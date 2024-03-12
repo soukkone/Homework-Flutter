@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/src/widgets/framework.dart';
-// import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:ch9_soukkone_2cw2/screen/USING-STACK-APP/r%20stack_favorite.dart';
-import 'package:ch9_soukkone_2cw2/screen/USING-STACK-APP/stack.dart';
+import 'package:flutter/src/widgets/framework.dart';
+// ignore: unused_import
+import 'package:flutter/src/widgets/placeholder.dart';
+import 'r%20stack_favorite.dart';
+import 'stack.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
